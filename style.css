@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  width: min(90vw, 1600px);
+  min-width: 600px;
+}
+
+#issMap {
+  height: 800px;
+
+  background-color: black;
+}
